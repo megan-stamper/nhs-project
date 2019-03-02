@@ -4,7 +4,7 @@ library(dplyr)
 library(rgdal)
 library(rvest)
 
-postcode <- 'TN1 2QU'
+postcode <- 'BN11 5BH'
 postcode <- gsub(" ", "", postcode)
 
 if (!exists(dentists_data)){
